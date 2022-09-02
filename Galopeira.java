@@ -16,7 +16,7 @@ public class Galopeira{
 		    tam = galopeira.length();
 		    tempo = tam*0.01;
 		    
-            System.out.printf("%.2f%n", tempo);
+            	    System.out.printf("%.2f%n", tempo);
 
 		}
 	}
