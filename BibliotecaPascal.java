@@ -19,27 +19,24 @@ public class BibliotecaPascal {
 			int[][] matriz = new int[d][n];
 			cont = 0;
 			
-			
 			for(i=0;i<d;i++) {
-				for(j=0;j<n;j++) {
-						matriz[i][j] = leitor.nextInt();
-				}
+			    for(j=0;j<n;j++) {
+				matriz[i][j] = leitor.nextInt();
+			    }
 			}
 			
 			for(j=0;j<n;j++) {
-					ver = true;
-					for(i=0;i<d;i++) {
-						if(matriz[i][j]==0) {
-							ver = false;
-						}
-					}
-					if(ver==true) {
-						cont++;
-					}
+			    ver = true;
+			    for(i=0;i<d;i++) {
+				if(matriz[i][j]==0) {
+			           ver = false;
 				}
+			    }
+			    if(ver==true) {
+			       cont++;
+			    }
+			}
 				
-			
-			
 			if(cont>0) {
 				System.out.println("yes");
 			}else {
