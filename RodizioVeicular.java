@@ -18,8 +18,8 @@ public class RodizioVeicular {
             	System.out.println("FAILURE");
             }else if(trans[3]!='-') {
             	System.out.println("FAILURE");
-            }else if((trans[4]<48 && trans[4]>57)|| (trans[5]<48 && trans[5]>57) ||
-            		(trans[6]<48 && trans[6]>57) || (trans[7]<48 && trans[7]>57)) {
+            }else if((trans[4]<48 || trans[4]>57)|| (trans[5]<48 || trans[5]>57) ||
+            		(trans[6]<48 || trans[6]>57) || (trans[7]<48 || trans[7]>57)) {
             	System.out.println("FAILURE");
             }else {
             	if(trans[7]=='1'|| trans[7]=='2') {
