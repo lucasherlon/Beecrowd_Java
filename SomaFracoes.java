@@ -21,7 +21,7 @@ public class SomaFracoes {
 		if(aux==aux2) {
 			System.out.printf("1 1\n");
 			
-		}else if(aux>aux2) {
+		}else if(aux<aux2) {
 			
 			for(int i = 2; i<=aux/2;i++) {
 				if(den%i==0 && num%i==0) {
