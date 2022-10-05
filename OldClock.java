@@ -10,7 +10,6 @@ public class OldClock {
 		
 		int h,m, horas,min;
 		
-		
 		while(leitor.hasNextInt()){
 		
 			h = leitor.nextInt();
