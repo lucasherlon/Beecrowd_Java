@@ -20,7 +20,7 @@ public class Lap {
 			t++;
 		}
 		
-		n = Math.round((double)t/x);
+		n = Math.ceil((double)t/x);
 		
 		System.out.printf("%.0f\n", n);
 		
