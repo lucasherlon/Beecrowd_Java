@@ -72,6 +72,6 @@ public class BooksCatalog {
 		System.out.println(soma);
 		
 		
-		}
+	}
 
 }
